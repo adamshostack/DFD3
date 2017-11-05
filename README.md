@@ -1,4 +1,5 @@
 # DFD3
+Data flow diagrams, also called DFDs or threat modeling diagrams.
 
 ## Definition
 1. A V3 DFD uses 5 symbols.  A rectangle represents an external entity, a person or code outside your control.  A rounded rectangle represents a process. They're connected by arrows, which can be single or double headed.  Data stores are represented by parallel lines.  A trust boundary is a closed shape, usually a box.  All lines are solid, except those used for trust boundaries, which are dashed or dotted.  (There is no "multi-process" symbol in DFD3.)

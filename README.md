@@ -11,3 +11,11 @@ Data flow diagrams, also called DFDs or threat modeling diagrams.
 
 ## Goal
 Many people have presented various different ways to craft data flow diagrams over the years.  This is an attempt to be more precise.
+
+# Rationales
+
+## Boxed boundaries
+Clearly show what's inside, in a way that arcs often fail to do.
+
+## Double headed arrows
+Are easier to draw.  They don't show initiation of a connection, which is sad, and can be done with one filled arrowhead, the other open.

@@ -14,6 +14,9 @@ Many people have presented various different ways to craft data flow diagrams ov
 
 # Rationales
 
+## Rounded rectangles
+Are more space-efficient in a large diagram than circles.
+
 ## Boxed boundaries
 Clearly show what's inside, in a way that arcs often fail to do.
 

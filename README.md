@@ -10,8 +10,7 @@ Data flow diagrams, also called DFDs or threat modeling diagrams.
 * Must, must not, should, should not are used per IETF norms.
 
 ## Goal
-Many people have presented various different ways to craft data flow diagrams over the years.  This is an attempt to be more precise.
-
+Many people have presented various different ways to craft data flow diagrams over the years.  This is an attempt to both be precise about what this defninition of a v3 DFD is, and also to encourage people to think about diagramming techniques as something that, like code, can be specified and evolved over time.
 # Rationales
 
 ## Rounded rectangles

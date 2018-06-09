@@ -20,4 +20,4 @@ Are more space-efficient in a large diagram than circles.
 Clearly show what's inside, in a way that arcs often fail to do.
 
 ## Double headed arrows
-Are easier to draw.  They don't show initiation of a connection, which is sad, and can be done with one filled arrowhead, the other open.
+Are easier to draw.  They don't show initiation of a connection, which is sad, and that can be shown with one arrowhead filled, the other open.

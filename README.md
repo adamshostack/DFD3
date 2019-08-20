@@ -21,3 +21,6 @@ Clearly show what's inside, in a way that arcs often fail to do.
 
 ## Double headed arrows
 Are easier to draw.  They don't show initiation of a connection, which is sad, and that can be shown with one arrowhead filled, the other open.
+
+## Notes
+I'm told that Gane and Sarson also used rounded rectangles long before me.  (Gane, Chris; Sarson, Trish. Structured Systems Analysis: Tools and Techniques, 1979.)

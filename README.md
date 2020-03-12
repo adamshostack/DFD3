@@ -12,11 +12,11 @@ Many people have presented various different ways to craft data flow diagrams ov
 </ol>
 * Must, must not, should, should not are used per IETF norms.
 
-### Symbols
+### Symbols/Elements used
 
-* External entity: Anything outside your control.  Examples include people and systems run by other organizations or even divisions.  For example, Joe's mobile phone, the Mint data aggregators (assuming you're modeling from a bank's perspective.).  If you're modeling Mint, then the bank's systems would be external entities.
-* Process: Any running code, including compiled, scripts, shell commands, SQL stored procedures, et cetera.
-* Data store: Anywhere data is stored, including files, databases, shared memory, S3, cookies, et cetera.
+* External entity: A sharp-cornered rectangle. Anything outside your control.  Examples include people and systems run by other organizations or even divisions.  For example, Joe's mobile phone, the Mint data aggregators (assuming you're modeling from a bank's perspective.).  If you're modeling Mint, then the bank's systems would be external entities.
+* Process: A rounded rectangle.  Any running code, including compiled, scripts, shell commands, SQL stored procedures, et cetera.
+* Data store: A drum. Anywhere data is stored, including files, databases, shared memory, S3, cookies, et cetera.
 * Data flows: All the ways that processes can talk to data stores or each other.
 
 

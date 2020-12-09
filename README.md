@@ -11,7 +11,8 @@ Many people have presented various different ways to craft data flow diagrams ov
 | External entity|  <img src ="icons/rectangle.png" width=50 height=50> | A sharp-cornered rectangle. Anything outside your control.  Examples include people and systems run by other organizations or even divisions.  For example, Joe's mobile phone, the Mint data aggregators (assuming you're modeling from a bank's perspective.).  If you're modeling Mint, then the bank's systems would be external entities. 
 | Process| <img src ="icons/rounded-rectangle.png" width=50 height=50> | A rounded rectangle.  Any running code, including compiled, scripts, shell commands, SQL stored procedures, et cetera.
 | Data store|  <img src ="icons/cylinder-256.png" width=50 height=50> | A drum. Anywhere data is stored, including files, databases, shared memory, S3, cookies, et cetera.
-| Data flows| <img src ="icons/arrow.png" width=50 height=50> | An arrow. All the ways that processes can talk to data stores or each other.  
+| Data flows| <img src ="icons/arrow.png" width=50 height=50> | An arrow. All the ways that processes can talk to data stores or each other.
+| Trust boundary | . . . | A closed shape drawn with a dashed or dotted line. Usually a box.
 
 
 
@@ -31,7 +32,7 @@ Many people have presented various different ways to craft data flow diagrams ov
 Are more space-efficient in a large diagram than circles.
 
 ## Boxed boundaries
-Clearly show what's inside, in a way that arcs often fail to do.
+Clearly show what's inside, in a way that arcs often fail to do. Dashes and dots are clearly different from other elements and reproduce clearly with black and white printers.
 
 ## Double headed arrows
 Are easier to draw.  They don't show initiation of a connection, which is sad, and that can be shown with one arrowhead filled, the other open.

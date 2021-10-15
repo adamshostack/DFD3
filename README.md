@@ -17,10 +17,16 @@ Many people have presented various different ways to craft data flow diagrams ov
 
 
 ## Definition
-1. A V3 DFD uses 5 symbols.  A rectangle represents an external entity, a person or code outside your control.  A rounded rectangle represents a process. They're connected by arrows, which can be single or double headed.  Data stores are represented by parallel lines.  A trust boundary is a closed shape, usually a box.  All lines are solid, except those used for trust boundaries, which are dashed or dotted.  (There is no "multi-process" symbol in DFD3.)
-2. It must not* depend on the use of color, but can use color for additional information.
-3. All elements should have a label.
-4. You may have a context diagram if the system is complex.  One is not required.
+1. A V3 DFD uses 5 symbols.  
+   1. A rectangle represents an external entity, a person or code outside your control. 
+   2. A rounded rectangle represents a process. They're connected by arrows, which can be single or double headed.
+   3. Data stores are represented by drums.
+   4. Data flows are represented by arrows. These are usually two way (bi-directional). A dot can be used to represent the origination side.
+   5. A trust boundary is a closed shape, usually a box.
+2. All lines are solid, except those used for trust boundaries, which are dashed or dotted.  (There is no "multi-process" symbol in DFD3.)
+3. It must not* depend on the use of color, but can use color for additional information.
+4. All elements should have a label.
+5. You may have a context diagram if the system is complex.  One is not required.
 </ol>
 * Must, must not, should, should not are used per IETF norms.
 

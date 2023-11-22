@@ -2,7 +2,7 @@
 Data flow diagrams, also called DFDs or threat modeling diagrams.
 
 ## Goal
-Many people have presented various different ways to craft data flow diagrams over the years.  This is an attempt to both be precise about what this defninition of a "v3 DFD" is, and also to encourage people to think about diagramming techniques themselves as something that, like code, can be specified and evolved over time, and labeled with a version.
+Many people have presented various different ways to craft data flow diagrams over the years.  This page defines a "v3 DFD" precisely. It also encourages people to think about diagramming techniques themselves as something that, like code, can be specified and evolved over time, and labeled with a version.
 
 ### Symbols/Elements used
 

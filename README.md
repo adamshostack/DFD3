@@ -34,6 +34,8 @@ Many people have presented various different ways to craft data flow diagrams ov
 
 # Rationales
 
+DFD3 is what people have come to call 'opinionated.' The design is aggressively simple to prioritize easy learning and use over expressiveness. It's just enough information to enable threat modeling and put type information into the picture.
+
 ## Rounded rectangles
 Are more space-efficient in a large diagram than circles.
 
